@@ -1,0 +1,6 @@
+"ScenarioID","Scenario","n_training_crosses","n_training_rlines","training_met_max_plots_per_location","training_met_duration_years","ayt_duration_years","recurrent_cross_duration_years","recurrent_ssd_duration_years","genotyping_duration_years"
+1,"baseline_800_met12_ayt12",10,800,200,1,1,0.5,1,0.5
+2,"fast_partner_data_800_met6_ayt6",10,800,200,0.5,0.5,0.5,1,0.5
+3,"larger_training_900_met12_ayt12",10,900,200,1,1,0.5,1,0.5
+4,"fewer_crosses_5_train800_met12_ayt12",5,800,200,1,1,0.5,1,0.5
+5,"higher_capacity_1000_cap250_met12_ayt12",10,1000,250,1,1,0.5,1,0.5

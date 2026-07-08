@@ -1,0 +1,4 @@
+interface:
+  display_name: "Breeding Scheme Drafter"
+  short_description: "Design and validate readable BPS schemes."
+  default_prompt: "Use $breeding-scheme-drafter to discuss my breeding pipeline stage by stage, uncover missing decisions, and agree on stored populations, an event skeleton, and implementation plans before writing code."

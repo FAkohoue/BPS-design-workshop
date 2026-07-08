@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 34px; font-weight: 700; fill: #111827; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 18px; fill: #475569; }
+      .phase-title { font-family: Arial, sans-serif; font-size: 23px; font-weight: 700; fill: #111827; }
+      .box-title { font-family: Arial, sans-serif; font-size: 17px; font-weight: 700; fill: #111827; }
+      .box-text { font-family: Arial, sans-serif; font-size: 14px; fill: #334155; }
+      .small { font-family: Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .tiny { font-family: Arial, sans-serif; font-size: 12px; fill: #64748b; }
+      .phase { fill: #fffaf0; stroke: #d08a32; stroke-width: 2.5; rx: 16; }
+      .phase2 { fill: #f8fbff; stroke: #2b7a8b; stroke-width: 2.5; rx: 16; }
+      .phase3 { fill: #fdf7ff; stroke: #7c3aed; stroke-width: 2.5; rx: 16; }
+      .pop { fill: #ffffff; stroke: #64748b; stroke-width: 1.7; rx: 10; }
+      .action { fill: #e8f4f8; stroke: #2b7a8b; stroke-width: 1.7; rx: 10; }
+      .select { fill: #eaf7ed; stroke: #2d8a55; stroke-width: 2; rx: 10; }
+      .trial { fill: #f3e8ff; stroke: #7c3aed; stroke-width: 1.7; rx: 10; }
+      .model { fill: #fff7d6; stroke: #c27a00; stroke-width: 2; rx: 10; }
+      .release { fill: #ffe8e8; stroke: #c2410c; stroke-width: 2; rx: 10; }
+      .arrow { stroke: #334155; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+      .loop { stroke: #2d8a55; stroke-width: 2; fill: none; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1050" fill="#ffffff"/>
+
+  <text x="70" y="58" class="title">Felicien Hybrid Rice Variety Development Scheme</text>
+  <text x="70" y="88" class="subtitle">Corrected BPS design: model-training phase, four recurrent GS parent-improvement cycles, then cycle 5 product pipeline.</text>
+
+  <!-- Training phase -->
+  <rect x="55" y="120" width="1690" height="285" class="phase"/>
+  <text x="85" y="158" class="phase-title">1st cycle: model training and calibration</text>
+
+  <g transform="translate(85,185)">
+    <rect width="175" height="105" class="pop"/>
+    <text x="14" y="28" class="box-title">5 elite R founders</text>
+    <text x="14" y="54" class="box-text">same outstanding</text>
+    <text x="14" y="74" class="box-text">biparental family</text>
+  </g>
+  <g transform="translate(300,185)">
+    <rect width="165" height="105" class="action"/>
+    <text x="14" y="28" class="box-title">R x R crosses</text>
+    <text x="14" y="54" class="box-text">5-10 crosses</text>
+    <text x="14" y="74" class="box-text">4-6 months</text>
+  </g>
+  <g transform="translate(505,185)">
+    <rect width="175" height="105" class="pop"/>
+    <text x="14" y="28" class="box-title">Training R lines</text>
+    <text x="14" y="54" class="box-text">800-1000 total</text>
+    <text x="14" y="74" class="box-text">across crosses</text>
+  </g>
+  <g transform="translate(720,185)">
+    <rect width="175" height="105" class="action"/>
+    <text x="14" y="28" class="box-title">SSD/RGA</text>
+    <text x="14" y="54" class="box-text">F2 to F5/F7</text>
+    <text x="14" y="74" class="box-text">no selection</text>
+    <text x="14" y="94" class="tiny">12-14 months</text>
+  </g>
+  <g transform="translate(935,185)">
+    <rect width="155" height="105" class="action"/>
+    <text x="14" y="28" class="box-title">Genotyping</text>
+    <text x="14" y="54" class="box-text">all R lines</text>
+    <text x="14" y="74" class="box-text">6 months</text>
+  </g>
+  <g transform="translate(1130,185)">
+    <rect width="185" height="105" class="action"/>
+    <text x="14" y="28" class="box-title">Sparse testcross</text>
+    <text x="14" y="54" class="box-text">2 fixed female testers</text>
+    <text x="14" y="74" class="box-text">high connectivity</text>
+  </g>
+  <g transform="translate(1355,185)">
+    <rect width="175" height="105" class="trial"/>
+    <text x="14" y="28" class="box-title">Partner MET</text>
+    <text x="14" y="54" class="box-text">5 locations</text>
+    <text x="14" y="74" class="box-text">200 plots/location</text>
+    <text x="14" y="94" class="tiny">sparse phenotyping</text>
+  </g>
+  <g transform="translate(1570,185)">
+    <rect width="145" height="105" class="select"/>
+    <text x="14" y="28" class="box-title">Select 5</text>
+    <text x="14" y="54" class="box-text">GCA desired-</text>
+    <text x="14" y="74" class="box-text">gain index</text>
+  </g>
+
+  <path class="arrow" d="M260,238 H292"/>
+  <path class="arrow" d="M465,238 H497"/>
+  <path class="arrow" d="M680,238 H712"/>
+  <path class="arrow" d="M895,238 H927"/>
+  <path class="arrow" d="M1090,238 H1122"/>
+  <path class="arrow" d="M1315,238 H1347"/>
+  <path class="arrow" d="M1530,238 H1562"/>
+
+  <g transform="translate(610,315)">
+    <rect width="580" height="60" class="model"/>
+    <text x="18" y="25" class="box-title">Estimate GCA, SCA, and GxE; train fixed GS model</text>
+    <text x="18" y="46" class="small">Traits: yield, blast, hoja blanca, Bulkhoderia, milling yield, milling quality, white center</text>
+  </g>
+  <path class="arrow" d="M1642,290 C1642,345 1260,345 1200,345"/>
+
+  <!-- Recurrent GS phase -->
+  <rect x="55" y="450" width="1690" height="250" class="phase2"/>
+  <text x="85" y="488" class="phase-title">Recurrent GS cycles 1-4: parent improvement only</text>
+  <text x="1110" y="488" class="phase-title">Cycle length L = 24 months = 2 years</text>
+
+  <g transform="translate(110,530)">
+    <rect width="190" height="95" class="pop"/>
+    <text x="14" y="28" class="box-title">Current 5 R parents</text>
+    <text x="14" y="54" class="box-text">from training cycle</text>
+    <text x="14" y="74" class="box-text">or previous GS cycle</text>
+  </g>
+  <g transform="translate(360,530)">
+    <rect width="170" height="95" class="action"/>
+    <text x="14" y="28" class="box-title">R x R crosses</text>
+    <text x="14" y="54" class="box-text">5-10 crosses</text>
+    <text x="14" y="74" class="box-text">6 months</text>
+  </g>
+  <g transform="translate(590,530)">
+    <rect width="190" height="95" class="action"/>
+    <text x="14" y="28" class="box-title">50 candidates</text>
+    <text x="14" y="54" class="box-text">SSD/RGA to F5</text>
+    <text x="14" y="74" class="box-text">12 months</text>
+  </g>
+  <g transform="translate(840,530)">
+    <rect width="170" height="95" class="action"/>
+    <text x="14" y="28" class="box-title">Genotype F5</text>
+    <text x="14" y="54" class="box-text">all 50 candidates</text>
+    <text x="14" y="74" class="box-text">6 months</text>
+  </g>
+  <g transform="translate(1070,530)">
+    <rect width="185" height="95" class="model"/>
+    <text x="14" y="28" class="box-title">Predict index GEBV</text>
+    <text x="14" y="54" class="box-text">fixed model</text>
+    <text x="14" y="74" class="box-text">no retraining</text>
+  </g>
+  <g transform="translate(1325,530)">
+    <rect width="190" height="95" class="select"/>
+    <text x="14" y="28" class="box-title">Select best 5</text>
+    <text x="14" y="54" class="box-text">next-cycle parents</text>
+    <text x="14" y="74" class="box-text">cycles 1-4</text>
+  </g>
+
+  <path class="arrow" d="M300,578 H352"/>
+  <path class="arrow" d="M530,578 H582"/>
+  <path class="arrow" d="M780,578 H832"/>
+  <path class="arrow" d="M1010,578 H1062"/>
+  <path class="arrow" d="M1255,578 H1317"/>
+  <path class="loop" d="M1420,625 C1420,670 205,680 205,632"/>
+  <text x="705" y="675" class="small">Repeat for cycles 1-4; genetic gain per year = gain per cycle / 2</text>
+
+  <!-- Product phase -->
+  <rect x="55" y="745" width="1690" height="245" class="phase3"/>
+  <text x="85" y="783" class="phase-title">Cycle 5: product pipeline and hybrid release</text>
+
+  <g transform="translate(95,825)">
+    <rect width="180" height="95" class="pop"/>
+    <text x="14" y="28" class="box-title">Cycle 4 parents</text>
+    <text x="14" y="54" class="box-text">5 selected R lines</text>
+  </g>
+  <g transform="translate(335,825)">
+    <rect width="175" height="95" class="action"/>
+    <text x="14" y="28" class="box-title">Cross and RGA</text>
+    <text x="14" y="54" class="box-text">50 F5 candidates</text>
+    <text x="14" y="74" class="box-text">then genotype</text>
+  </g>
+  <g transform="translate(570,825)">
+    <rect width="165" height="95" class="select"/>
+    <text x="14" y="28" class="box-title">Select 30</text>
+    <text x="14" y="54" class="box-text">at F5 by index</text>
+    <text x="14" y="74" class="box-text">GEBV</text>
+  </g>
+  <g transform="translate(795,825)">
+    <rect width="160" height="95" class="action"/>
+    <text x="14" y="28" class="box-title">Advance to F7</text>
+    <text x="14" y="54" class="box-text">selected 30 only</text>
+    <text x="14" y="74" class="box-text">4-6 months</text>
+  </g>
+  <g transform="translate(1015,825)">
+    <rect width="185" height="95" class="action"/>
+    <text x="14" y="28" class="box-title">Final testcross</text>
+    <text x="14" y="54" class="box-text">30 R lines x</text>
+    <text x="14" y="74" class="box-text">2 fixed testers</text>
+  </g>
+  <g transform="translate(1260,825)">
+    <rect width="175" height="95" class="trial"/>
+    <text x="14" y="28" class="box-title">Partner AYT</text>
+    <text x="14" y="54" class="box-text">60 candidate</text>
+    <text x="14" y="74" class="box-text">hybrid combinations</text>
+  </g>
+  <g transform="translate(1495,825)">
+    <rect width="205" height="95" class="release"/>
+    <text x="14" y="28" class="box-title">Release hybrids</text>
+    <text x="14" y="54" class="box-text">observed AYT yield</text>
+    <text x="14" y="74" class="box-text">exceeds local check</text>
+  </g>
+
+  <path class="arrow" d="M275,872 H327"/>
+  <path class="arrow" d="M510,872 H562"/>
+  <path class="arrow" d="M735,872 H787"/>
+  <path class="arrow" d="M955,872 H1007"/>
+  <path class="arrow" d="M1200,872 H1252"/>
+  <path class="arrow" d="M1435,872 H1487"/>
+
+  <path class="arrow" d="M900,375 C900,420 205,420 205,522"/>
+  <text x="965" y="427" class="small">fixed GS model and selected 5 R parents start recurrent GS</text>
+  <path class="arrow" d="M1515,578 C1640,650 170,705 185,817"/>
+  <text x="1310" y="716" class="small">after cycle 4, cycle 5 enters product pipeline</text>
+</svg>
